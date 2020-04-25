@@ -1,0 +1,48 @@
+﻿body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+input, textarea {
+    width: 200px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: auto;
+}
+
+#FormDiv {
+    background-color: gray;
+}
+
+    #FormDiv [type="submit"] {
+        background-color:palevioletred
+    }
+
+ul.product-list {
+    font-size: small;
+}
+
+ul.product-list li{
+    list-style-type: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product-info{
+    border: 1px solid black;
+    display:inline-block;
+    width: 450px;
+    padding: 5px;
+    margin: 2px;
+    background-color: #d0d0d0;
+    border-radius: 5px;
+}
+
+.product-info img {
+    margin: 3px;
+    float: left;
+    max-width: 225px;
+}
+
+
+
