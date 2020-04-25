@@ -1,8 +1,19 @@
-﻿var form = $("#FormDiv");
+﻿$(document).ready(function () {
 
-form.hide();
+    var form = $("#theForm");
 
-var button = $("#BuyButton");
-button.on("click", function () {
-    console.log("Clicked");
+    form.hide();
+
+    var button = $("#buyButton");
+    button.on("click", function () {
+        console.log("Clicked");
+    });
+
+    var $loginToggle = $("#loginToggle");
+    var $popupForm = $(".popup-form");
+
+    $loginToggle.on("click", function () {
+        $popupForm.fadeToggle(1000);
+    });
+    
 });

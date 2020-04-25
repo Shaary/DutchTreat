@@ -17,41 +17,54 @@
             <li>Commets:</li>
             <li>Description: Autoportret</li>
         </ul>
-        <button id="BuyButton">
-            Buy
-        </button>
+        <button id="buyButton">Buy</button>
     </div>
 
-    <div id="FormDiv">
+    <div id="theForm">
         <form>
-            <label>
-                Name
-            </label>
+            <label>Your Name:</label>
             <br />
             <input />
             <br />
-            <label>
-                Email
-            </label>
+            <label>Email:</label>
             <br />
             <input type="email" />
             <br />
-            <label>
-                Subject
-            </label>
+            <label>Subject:</label>
             <br />
-            <input />
+            <input type="text" />
             <br />
-            <label>
-                Message
-            </label>
+            <label>Message:</label>
             <br />
-            <textarea rows="4"> </textarea>
+            <textarea rows="4"></textarea>
             <br />
-            <input type="submit" value="Send request" />
+            <input type="submit" value="Send Message" />
         </form>
     </div>
-    <script scr="/node_modules/jquery/dist/jquery.min.js"></script>
+
+    <div>
+        <div id="loginToggle">Login</div>
+        <form class="popup-form">
+            <div>
+                <label>UserName:</label>
+                <input />
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" />
+            </div>
+            <div>
+                <input type="checkbox" />
+                <label>Remeber me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Login"/>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 </html>

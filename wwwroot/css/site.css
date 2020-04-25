@@ -1,48 +1,73 @@
 ﻿body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input, textarea {
-    width: 200px;
-    font-size: 16px;
-}
-
-input[type="submit"] {
+input[type=submit] {
     width: auto;
 }
 
-#FormDiv {
-    background-color: gray;
+input, textarea {
+    font-size: 18px;
+    width: 200px;
 }
 
-    #FormDiv [type="submit"] {
-        background-color:palevioletred
+label {
+    font-size: 16px;
+}
+
+#theForm {
+    background-color: #d0d0d0;
+}
+
+    #theForm input[type=submit] {
+        background-color: green;
+        color: white;
     }
 
 ul.product-list {
     font-size: small;
 }
 
-ul.product-list li{
-    list-style-type: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    ul.product-list li {
+        list-style-type: none;
+    }
 
-.product-info{
-    border: 1px solid black;
-    display:inline-block;
-    width: 450px;
-    padding: 5px;
+.product-info {
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 8px 2px;
     margin: 2px;
-    background-color: #d0d0d0;
+    width: 450px;
+    background-color: lightgray;
     border-radius: 5px;
 }
 
-.product-info img {
-    margin: 3px;
-    float: left;
-    max-width: 225px;
+    .product-info img {
+        margin: 3px;
+        float: left;
+        border: 1px solid black;
+        max-width: 150px;
+    }
+
+#loginToggle {
+    cursor: pointer;
 }
 
+.popup-form {
+    padding: 5px;
+    border: 2px black inset;
+    display: inline-block;
+}
 
+    .popup-form input {
+        width: 200px;
+    }
 
+    .popup-form label {
+        width: 150px;
+        display: inline-block;
+    }
+
+    .popup-form input[type=checkbox], .popup-form input[type=submit] {
+        width: auto;
+    }
